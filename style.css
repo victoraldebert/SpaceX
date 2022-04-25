@@ -55,7 +55,6 @@ body {
     color: white;
     font: 16px/25px D-DIN-Medium,Arial,Verdana,sans-serif;
 }
-
 .animate-shadowed {
     visibility: inherit;
     opacity: 1;
@@ -63,26 +62,17 @@ body {
 
     color: white;
 }
-
 .btn animate {
     visibility: inherit;
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
-
-.inner-left-bottom {
-    position: absolute;
-    bottom: 15%;
-    left: 45px;
-}
-
 h2 {
     max-width: 90%;
     margin-left: 0;
     font-size: 48px;
     line-height: 48px;
 }
-
 .nav-links {
     position: relative;
     list-style-type: none;
@@ -95,13 +85,11 @@ nav-links li {
     display: inline-block;
     margin: 0 12px;
 }
-
 #menu {
     right: 0;
     width: 0;
     z-index: 12;
 }
-
 #menu-navigation {
     position: absolute;
     top: 75px;
@@ -111,4 +99,40 @@ nav-links li {
 #navigation {
     display: inline-block;
     left: 285px;
+}
+#navigation-right {
+    position: absolute;
+    top: 38px;
+    height: 30px;
+}
+.inner-left-bottom {
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+}
+.bar{
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    top: 3px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    height: 2px;
+}
+#handburger {
+    display: block;
+    top: 50%;
+    right: 50px;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 55;
+    padding: 0 8px;
+    border: 0;
+    background: 0 0;
+    -webkit-transition: opacity .2s linear .1s;
+    transition: opacity .2s linear .1s;
+    appearance: none;
 }

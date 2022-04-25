@@ -1,24 +1,20 @@
-* {
+body {
+    margin: 0;
+    padding: 0;
     background-color: #000;
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
-
 .nav-bar {
     display: flex;
     flex-direction: row;
 }
-
-.nav-link-first
-.nav-link-second
-.nav-link-third
-.nav-link-fourt
-.nav-link-fifth
-.nav-link-sixth 
-
-.first-container {}
-.second-container {}
-.third-container {}
-.fourth-container {}
-.fifth-container {}
 
 
 .section {
@@ -33,7 +29,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #000;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,4 +36,79 @@
 
 .section-inner {
     font: 36px/36px D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+#wrapper {
+    
+}
+
+.visible {
+    
+}
+
+.animate {
+    text-transform: uppercase;
+    visibility: inherit;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+    color: white;
+    font: 16px/25px D-DIN-Medium,Arial,Verdana,sans-serif;
+}
+
+.animate-shadowed {
+    visibility: inherit;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+    color: white;
+}
+
+.btn animate {
+    visibility: inherit;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.inner-left-bottom {
+    position: absolute;
+    bottom: 15%;
+    left: 45px;
+}
+
+h2 {
+    max-width: 90%;
+    margin-left: 0;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.nav-links {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav-links li {
+    position: relative;
+    display: inline-block;
+    margin: 0 12px;
+}
+
+#menu {
+    right: 0;
+    width: 0;
+    z-index: 12;
+}
+
+#menu-navigation {
+    position: absolute;
+    top: 75px;
+    right: 50px;
+    width: 250px;
+}
+#navigation {
+    display: inline-block;
+    left: 285px;
 }
